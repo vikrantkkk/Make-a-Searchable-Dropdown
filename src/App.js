@@ -11,7 +11,7 @@ export default function App() {
   ];
   return (
     <div>
-      <Select options={options} isSearchable={true} />
+      <Select options={options} isSearchable={true} className="Select" />
     </div>
   );
 }
